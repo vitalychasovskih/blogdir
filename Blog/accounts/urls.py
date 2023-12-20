@@ -2,7 +2,7 @@
 
 from django.urls import path, include
 
-app_name='users'
+app_name = 'accounts'
 urlpatterns = [
     # Включить URL авторизации по умолчанию
     path('', include('django.contrib.auth.urls')),
